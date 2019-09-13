@@ -234,6 +234,7 @@ static int jsmn_parse_string(jsmn_parser *parser, const char *js,
       case 'r':
       case 'n':
       case 't':
+      case 'x':    
         break;
       /* Allows escaped symbol \uXXXX */
       case 'u':
